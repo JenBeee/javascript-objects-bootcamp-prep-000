@@ -1,4 +1,5 @@
 var playlist = {Prince: 'Purple Rain'}
+console.log(playlist)
 
 function updatePlaylist(listname, artist, song){
   listname[artist] = song
