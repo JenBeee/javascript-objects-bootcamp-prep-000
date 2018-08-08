@@ -10,4 +10,4 @@ function removeFromPlaylist(listname, artist){
   delete listname.artist
   return listname
 }
-removeFromPlaylist(playlist, Beatles)
+removeFromPlaylist(playlist, 'Beatles')
