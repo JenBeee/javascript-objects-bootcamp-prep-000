@@ -8,7 +8,7 @@ function updatePlaylist(listname, artist, song){
 updatePlaylist(playlist, 'Beatles', 'Love Me Do')
 
 function removeFromPlaylist(listname, artist){
-  listname = delete listname.artist
+  delete listname.artist
   console.log(listname)
 }
 removeFromPlaylist(playlist, 'Beatles')
